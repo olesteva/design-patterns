@@ -6,7 +6,7 @@ package com.olesteva.adapter;
 public class EmployeeAdapter implements Employee {
 
   /**
-   * use composition to inject existing interface
+   * use composition to inject existing implementation
    */
   private final Person person;
 

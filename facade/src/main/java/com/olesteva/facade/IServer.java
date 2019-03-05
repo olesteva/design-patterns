@@ -1,7 +1,7 @@
 package com.olesteva.facade;
 
 /**
- * Mocked interface of subsystem, representing number of different modules, that needs to be
+ * Subsystem interface, representing number of different modules, that needs to be
  * invoked by client to do basically two steps: start server and stop server.
  */
 public interface IServer {

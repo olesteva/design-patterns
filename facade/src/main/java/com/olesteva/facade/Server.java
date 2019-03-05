@@ -1,8 +1,5 @@
 package com.olesteva.facade;
 
-/**
- * Mock implementation of subsystem, to complex for client to use
- */
 public class Server implements IServer{
 
   @Override

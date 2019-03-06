@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * Component interface that will uniformly represent composite and leaf classes to the client.
- * Some methods does not have default implementation, because either composite
+ * Some methods have default implementation, because either composite
  * or leaf doesn't have meaningful implementation.
  */
 public interface HtmlTag {

@@ -1,0 +1,14 @@
+
+State pattern is a way for building state machine in object oriented fashion.
+State machine are like memory-less machines. Machines that makes decisions on the basis on what state they are currently,
+not based on how they got there.
+
+States - finite set of possible states of the program
+Actions - events that triggers transitions between states
+
+States should be represented as an object implementing one common interface, implementing all actions methods
+
+
+State table - Decart multiplication - States x Actions
+
+State pattern allow you to change behavior (actions) of class (Context) depending on the state it is in.

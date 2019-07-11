@@ -37,7 +37,7 @@ public class Payment implements State {
 
   private Payment doPayment(){
     System.out.println("creating payment ... (always success, this needs to be extended to full functionality)");
-    this.success = false;
+    this.success = true;
     return this;
   }
 }

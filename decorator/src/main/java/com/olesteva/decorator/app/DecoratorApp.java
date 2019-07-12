@@ -1,5 +1,6 @@
 package com.olesteva.decorator.app;
 
+import com.olesteva.decorator.addons.BeverageDecorator;
 import com.olesteva.decorator.addons.CaramelDecorator;
 import com.olesteva.decorator.addons.SoyDecorator;
 import com.olesteva.decorator.beverage.Beverage;
@@ -14,8 +15,8 @@ public class DecoratorApp {
 
     Beverage espresso = Espresso.of(2);
 
-    Beverage caramelDecorator = CaramelDecorator.of(2, espresso);
-    Beverage soyDecorator = SoyDecorator.of(1, caramelDecorator);
+    BeverageDecorator caramelDecorator = CaramelDecorator.of(2, espresso);
+    BeverageDecorator soyDecorator = SoyDecorator.of(1, caramelDecorator);
 
     int cost = soyDecorator.cost();
 

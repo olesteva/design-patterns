@@ -5,4 +5,5 @@ package com.olesteva.decorator.beverage;
  */
 public interface Beverage {
   int cost();
+  String description();
 }

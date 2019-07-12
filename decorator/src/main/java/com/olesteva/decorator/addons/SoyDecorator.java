@@ -5,7 +5,7 @@ import com.olesteva.decorator.beverage.Beverage;
 /**
  * Decorator for adding soy
  */
-public class SoyDecorator implements Beverage {
+public class SoyDecorator implements BeverageDecorator {
 
   private final int price;
   private Beverage beverageToDecorate;

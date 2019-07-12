@@ -5,7 +5,7 @@ import com.olesteva.decorator.beverage.Beverage;
 /**
  * Decorator for adding caramel
  */
-public class CaramelDecorator implements Beverage {
+public class CaramelDecorator implements BeverageDecorator {
 
   private final int price;
   private Beverage beverageToDecorate;

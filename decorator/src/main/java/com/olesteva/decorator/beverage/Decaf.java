@@ -20,4 +20,9 @@ public class Decaf implements Beverage {
   public int cost() {
     return price;
   }
+
+  @Override
+  public String description() {
+    return "Decaf drink";
+  }
 }

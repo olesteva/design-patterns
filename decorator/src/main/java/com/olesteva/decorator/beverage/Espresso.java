@@ -5,7 +5,6 @@ package com.olesteva.decorator.beverage;
  */
 public class Espresso implements Beverage {
 
-
   private final int price;
 
   private Espresso(int price) {
@@ -20,5 +19,10 @@ public class Espresso implements Beverage {
   @Override
   public int cost() {
     return price;
+  }
+
+  @Override
+  public String description() {
+    return "Espresso drink";
   }
 }

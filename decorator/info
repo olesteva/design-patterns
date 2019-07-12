@@ -1,0 +1,16 @@
+Decorator pattern
+
+Patern that can be flexible replacement for inheritance.
+It allows behavior to be added to an individual object, dynamically,
+without affecting the behavior of other objects from the same class.
+
+Example given here (Beverage) is not happiest example, since it can be done much
+easier by just injecting a Collection of addOns(Soy, Caramel, etc) to the concrete, base case beverage, like Espresso.
+Why is that?
+Because every BeverageDecorator have same implementation of method cost().
+It always adding (+) its price to the 'inner' beverage recursively. There is no need to them to implement
+cost() method (hence, to be type of Beverage), just a way to provide its price.
+Iterator pattern is much suitable for this kind of scenario.
+Decorator patter is much useful in situations where addOns widely differ in basic implementation.
+For example, if we add new decorator for CupSize which will implement cost() method using multiplication
+rather then adding.
